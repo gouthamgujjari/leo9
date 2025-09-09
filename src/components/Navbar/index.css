@@ -1,0 +1,59 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9ff;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.navbar.scrolled {
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.brand-name {
+  font-size: 26px;
+  font-weight: 700;
+  color: #6c63ff;
+}
+
+.brand-name .highlight {
+  color: #ff6584;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: #2d2d2d;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: #6c63ff;
+}
+
+.links button {
+  background: #6c63ff;
+  color: #fff;
+  border-radius: 25px;
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.links button:hover {
+  background: #574bdb;
+}
